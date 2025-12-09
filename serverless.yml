@@ -1,0 +1,15 @@
+service: serverless-app
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+
+functions:
+  api:
+    handler: src/handlers/api.handler
+    events:
+      - http:
+          path: /{proxy+}
+          method: ANY
+          cors: true
