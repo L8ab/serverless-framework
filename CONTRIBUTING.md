@@ -1,22 +1,32 @@
-# Contributing to L8ab Systems Projects
+# Contributing to This Project
 
-Thank you for your interest in contributing!
+Thank you for your interest in contributing! This document provides guidelines for contributing.
 
 ## Getting Started
+
 1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/REPO_NAME.git`
+3. Create a branch: `git checkout -b feature/your-feature-name`
 
-## Code Standards
-- Follow ESLint configuration
-- Write meaningful commit messages
+## Development
+
+- Follow the existing code style
+- Write clear commit messages
 - Add tests for new features
-- Update documentation
+- Update documentation as needed
 
-## Questions?
-Contact: L8ab@proton.me
+## Submitting Changes
+
+1. Commit your changes: `git commit -m "Add feature"`
+2. Push to your branch: `git push origin feature/your-feature-name`
+3. Open a Pull Request
+
+## Code of Conduct
+
+- Be respectful and inclusive
+- Welcome newcomers
+- Focus on constructive feedback
 
 ---
 
-**POWERED BY L8AB SYSTEMS** ⚡
+**POWERED BY L8AB SYSTEMS**
