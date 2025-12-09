@@ -1,22 +1,44 @@
-# ☁️ Serverless Framework
+# Serverless Framework
 
-Complete serverless application framework.
+A serverless application framework for AWS Lambda.
 
 ## Features
-- Multi-cloud support (AWS, Azure, GCP)
-- Function orchestration
-- Event-driven architecture
-- Auto-scaling and cost optimization
-- Monitoring and debugging tools
-- CI/CD integration
-- Local development environment
+
+- AWS Lambda functions
+- Serverless.yml configuration
+- API Gateway integration
+- CORS support
+- Environment variables
 
 ## Tech Stack
-- TypeScript
-- AWS Lambda / Azure Functions
-- Terraform
-- Serverless Framework
+
+- **Runtime**: Node.js
+- **Platform**: AWS Lambda
+- **Framework**: Serverless Framework
+
+## Project Structure
+
+\`\`\`
+serverless-framework/
+├── src/
+│   └── handlers/        # Lambda handlers
+├── serverless.yml       # Serverless config
+└── package.json
+\`\`\`
+
+## Installation
+
+\`\`\`bash
+npm install
+npm install -g serverless
+\`\`\`
+
+## Deployment
+
+\`\`\`bash
+serverless deploy
+\`\`\`
 
 ---
 
-**POWERED BY L8AB SYSTEMS** ⚡
+**POWERED BY L8AB SYSTEMS**
